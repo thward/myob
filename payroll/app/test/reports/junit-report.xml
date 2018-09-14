@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="payroll-system-payslips;generate-payslip-for-a-new-employee" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/_workspace_myob/MYOB-Technology-shiny-people-8ab2c6ff65735d776916bc338b4432a10d683971/payroll/app/test/features/payslip.feature">
+            </property>
+        </properties>
+        <testcase name="When I generate a payslip for a new employee" classname="payroll-system-payslips;generate-payslip-for-a-new-employee" time="4.650345432">
+        </testcase>
+        <testcase name="Then I should see the payslip summary page" classname="payroll-system-payslips;generate-payslip-for-a-new-employee" time="0.462970674">
+        </testcase>
+    </testsuite>
+</testsuites>

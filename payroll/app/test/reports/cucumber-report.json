@@ -1,0 +1,61 @@
+[
+  {
+    "description": "  I should be able to generate a new payslip for employees",
+    "elements": [
+      {
+        "id": "payroll-system-payslips;generate-payslip-for-a-new-employee",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Generate payslip for a new employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I generate a payslip for a new employee",
+            "result": {
+              "status": "passed",
+              "duration": 4650345432
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\_workspace_myob\\MYOB-Technology-shiny-people-8ab2c6ff65735d776916bc338b4432a10d683971\\payroll\\app\\test\\step_definitions\\payslip_steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the payslip summary page",
+            "result": {
+              "status": "passed",
+              "duration": 462970674
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\_workspace_myob\\MYOB-Technology-shiny-people-8ab2c6ff65735d776916bc338b4432a10d683971\\payroll\\app\\test\\step_definitions\\payslip_steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2563424722
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\_workspace_myob\\MYOB-Technology-shiny-people-8ab2c6ff65735d776916bc338b4432a10d683971\\payroll\\app\\node_modules\\selenium-cucumber-js\\runtime\\world.js:221"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "payroll-system-payslips",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Payroll System Payslips",
+    "tags": [],
+    "uri": "C:/_workspace_myob/MYOB-Technology-shiny-people-8ab2c6ff65735d776916bc338b4432a10d683971/payroll/app/test/features/payslip.feature"
+  }
+]
